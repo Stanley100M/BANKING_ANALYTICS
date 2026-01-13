@@ -43,22 +43,183 @@ The analysis can be broadly categorized into the following themes:
   ## 1. Customer Segmentation & Demographics
   **Business Questions Addressed**
 
-     * Who are the bank’s customers?
+  * Who are the bank’s customers?
 
-     * How are customers distributed by age, income, occupation, nationality, and location?
+  * How are customers distributed by age, income, occupation, nationality, and location?
 
   **Analyses Performed**
 
-     * Customer distribution by age groups
+  * Customer distribution by age groups
 
-     * Segmentation of customers into income tiers (Low / Middle / High)
+  * Segmentation of customers into income tiers (Low / Middle / High)
 
-     * Distribution of customers by location, nationality, and occupation
+  * Distribution of customers by location, nationality, and occupation
 
-     * Total customer count per demographic segment
+  * Total customer count per demographic segment
+  **Outcome**
+
+Enabled clear customer profiling to support marketing and strategic decision-making.
+
+  ## 2. Income, Deposits & Wealth Analysis
+
+  **Business Questions Addressed**
+
+  * Do higher-income customers hold more deposits?
+ 
+  * Which customers represent the highest deposit value?
+
+  **Analyses Performed**
+
+  * Average bank deposits and estimated income
+
+  * Comparison of average deposits vs income
+
+  * Ranking customers by total deposits
+
+  * Deposit analysis by property ownership
+
+  * Average superannuation savings by occupation
+
+  **Outcome**
+
+Identified high-value customers and wealth concentration patterns.
+
+  ## 3. Loans, Debt & Financial Risk
+
+  **Business Questions Addressed**
+
+  * Which customers are highly leveraged?
+
+  * Do older customers borrow or save more?
+
+  **Analyses Performed**
+
+  * Average bank loans
+
+  * Debt-to-Income (DTI) ratio calculation
+
+  * Identification of customers with high loan-to-income ratios
+
+  * Loan-dominant vs deposit-dominant customers
+
+  * Age-based borrowing and saving behavior analysis
+
+  **Outcome**
+
+  Provided insights into customer risk exposure and borrowing behavior.
+
+  ## 4. Credit Card Usage Analysis
+
+  **Business Questions Addressed**
+
+  * How do customers use credit cards?
+
+  * Does loyalty or occupation influence credit behavior?
+
+  **Analyses Performed**
+
+* Average credit card balance by:
+
+  * Occupation
+
+  * Loyalty classification
+
+  * Number of credit cards
+
+* Customers with:
+
+  * Credit cards but no loans
+
+  * Loans but no credit cards
+
+ **Outcome**
+ 
+Revealed spending patterns and opportunities for product cross-selling.
+
+ ## 5. Customer Loyalty & Retention
+
+ **Business Questions Addressed**
+
+ * How effective is the loyalty program?
+
+ * Which customers are at risk of churn?
+
+**Analyses Performed**
+
+* Customer distribution by loyalty classification
+
+* Loyalty classification updates using business rules
+(e.g., reclassifying Jade → Bronze)
+
+* High-end customer loyalty satisfaction analysis
+
+* Identification of potential churn customers using a rule-based model
+(High fees + low deposits)
+
+**Outcome**
+
+Simulated real-world retention and customer lifecycle management logic.
+
+## 6. Product Penetration & Account Ownership
+
+* Business Questions Addressed
+
+* How widely are banking products adopted?
+
+* Which products are underutilized?
+
+**Analyses Performed**
+
+* Product penetration analysis for:
+
+  * Credit cards
+
+  * Loans
+
+  * Deposits
+
+  * Savings accounts
+
+  * Foreign currency accounts
+
+* Percentage of customers holding specific products
+
+* Total customers per product category
+
+**Outcome**
+
+Delivered insights for cross-sell and upsell strategy development.
+
+## 7. Comparative & Behavioral Insights
+
+* Business Questions Addressed
+
+   * How do deposits compare to loans across customers?
+
+   * Does income level influence savings behavior?
+ 
+* Analyses Performed
 
 
+  * Average deposits vs average loans
 
+  * Income vs deposit correlation analysis
+
+  * Behavioral comparisons by age and property ownership
+
+**Outcome**
+
+Translated raw transactional data into actionable behavioral insights.
+
+# Visualization
+
+Key findings were visualized using matplotlib and seaborn in Python. Visualizations included:
+
+  * Histograms: To show distributions of numerical features like Income and Credit Card Balance.
+
+  * Heatmaps: To display correlations between features.
+
+  * Bar Charts: For comparing customer behavior across different categories like gender, nationality, and loyalty classification.
 
 
 
