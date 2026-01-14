@@ -1,5 +1,5 @@
 
-# BANKING ANALYTICS: TRENDS,RISKS, AND OPPORTUNITIES
+# BANKING ANALYTICS : TRENDS,RISKS, AND OPPORTUNITIES
 
 ## Project Overview
 
@@ -162,7 +162,7 @@ Simulated real-world retention and customer lifecycle management logic.
 
 ## 6. Product Penetration & Account Ownership
 
-* Business Questions Addressed
+**Business Questions Addressed**
 
 * How widely are banking products adopted?
 
@@ -221,7 +221,25 @@ Key findings were visualized using matplotlib and seaborn in Python. Visualizati
 
   * Bar Charts: For comparing customer behavior across different categories like gender, nationality, and loyalty classification.
 
+# Customer Lifetime Value (CLV) Analysis
 
+We calculated the **Customer Lifetime Value (CLV)** based on transactional behaviors such as **Bank Deposits, Credit Card Balance, and Bank Loans**. This analysis helped to identify high-value customers and segments that could benefit from targeted marketing.
+
+# Key Findings
+
+**1.Income and Credit Card Usage**: There is a positive correlation between estimated income and credit card balance. High-income customers tend to have higher credit card balances, indicating more frequent use of credit cards for larger purchases.
+
+**2.Risk Weighting**: Customers with higher risk weighting are more likely to have larger credit card balances and bank loans, which suggests that these individuals are financially more leveraged and may require closer monitoring for risk management.
+
+**3.Loyalty Classification**: Customers with higher loyalty classifications (i.e., long-term customers) tend to have larger bank deposits and more diverse financial products (e.g., savings accounts, foreign currency accounts).
+
+**4.Customer Segmentation**: Clustering analysis reveals statistically distinct customer segments differentiated by income level and financial product utilization.
+
+* High-income customers exhibit disproportionately higher credit card balances, while maintaining comparatively lower balances in savings and checking accounts.
+
+* Middle-income customers represent the largest share of business lending exposure and demonstrate stronger liquidity positions, reflected in higher balances across savings and transactional (checking) accounts.
+  
+* Low-income customers show lower participation in business lending and maintain smaller balances in savings and checking accounts relative to the other segments.
 
 
 
