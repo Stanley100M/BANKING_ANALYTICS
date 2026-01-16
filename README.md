@@ -55,7 +55,7 @@ The analysis can be broadly categorized into the following themes:
 
   * Distribution of customers by location, nationality, and occupation
 
-  * Total customer count per demographic segment
+
   **Outcome**
 
 Enabled clear customer profiling to support marketing and strategic decision-making.
