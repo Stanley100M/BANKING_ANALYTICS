@@ -227,7 +227,7 @@ Key findings were visualized using matplotlib and seaborn in Python. Visualizati
 
 **Product Perfomance**
 
-![Product Perfomance Screenshot](https://github.com/Stanley100M/BANKING_ANALYTICS/blob/main/Images/Product%20Perfomance.JPG)
+![Product Perfomance Screenshot](https://github.com/Stanley100M/BANKING_ANALYTICS/blob/main/Images/Product%20Perf.JPG)
 
 
 
