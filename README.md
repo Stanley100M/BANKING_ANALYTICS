@@ -221,6 +221,16 @@ Key findings were visualized using matplotlib and seaborn in Python. Visualizati
 
   * Bar Charts: For comparing customer behavior across different categories like gender, nationality, and loyalty classification.
 
+**Customer Overview**
+
+![Customer overview Screenshot](https://github.com/Stanley100M/BANKING_ANALYTICS/blob/main/Images/Customer%20Overview.JPG)
+
+**Product Perfomance**
+
+![Product Perfomance Screenshot](https://github.com/Stanley100M/BANKING_ANALYTICS/blob/main/Images/Product%20Perfomance.JPG)
+
+
+
 # Customer Lifetime Value (CLV) Analysis
 
 We calculated the **Customer Lifetime Value (CLV)** based on transactional behaviors such as **Bank Deposits, Credit Card Balance, and Bank Loans**. This analysis helped to identify high-value customers and segments that could benefit from targeted marketing.
